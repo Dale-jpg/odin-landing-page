@@ -22,14 +22,13 @@ ul {
 
 .header,
 .footer {
-    border: 1px solid #fff;  /* For debugging */
     background-color: #1f2937;
     padding: 16px;
 }
 
 .header {
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .footer {
@@ -40,14 +39,14 @@ ul {
     color: #e5e7eb;
 }
 
-.logo {
+.logo,
+.bottom-section-title {
     font-size: 24px;
     font-weight: 700;
     color: #F9FAF8;
 }
 
 .top-section {
-    border: 1px solid #fff;  /* For debugging */
     background-color: #1f2937;
     display:flex;
     padding: 48px 0;
@@ -65,7 +64,8 @@ ul {
     color: #f9faf8;
 }
 
-.top-section-text {
+.top-section-text,
+.bottom-section-text {
     font-size: 18px;
     color: #e5e7eb;
     margin-bottom: 8px;
@@ -136,9 +136,21 @@ button {
 .bottom-section {
     display:flex;
     background-color: #3882f6;
+    padding: 48px;
 }
 
 .bottom-section-container {
     display: flex;
     flex-direction: column;
+}
+
+.button-container button {
+    border: 1px solid #fff;
+}
+
+.button-container {
+    flex: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
