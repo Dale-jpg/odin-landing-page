@@ -23,7 +23,7 @@ ul {
 .header,
 .footer {
     background-color: #1f2937;
-    padding: 16px;
+    padding: 16px 48px;
 }
 
 .header {
@@ -49,7 +49,7 @@ ul {
 .top-section {
     background-color: #1f2937;
     display:flex;
-    padding: 48px 0;
+    padding: 48px;
 }
 
 .top-section-container {
@@ -72,10 +72,11 @@ ul {
 }
 
 button {
+    border-radius: 8px;
     color: #e5e7eb;
     font-weight: 700;
     background-color: #3882F6;
-    padding: 2px 16px;
+    padding: 4px 24px;
 }
 
 .top-section-image {
@@ -85,7 +86,7 @@ button {
 .information-section {
     display:flex;
     flex-direction: column;
-    padding: 48px 0;
+    padding: 48px;
     text-align:center;
 }
 
@@ -106,6 +107,7 @@ button {
 }
 
 .numbers img {
+    border-radius: 16px;
     max-width: 150px;
 }
 
@@ -113,7 +115,7 @@ button {
     background-color: #e5e7eb;
     display:flex;
     flex-direction: column;
-    padding: 48px 0;
+    padding: 48px;
 }
 
 .quote-text {
@@ -123,6 +125,7 @@ button {
     color: #1f2937;
     justify-content: center;
     align-items: center;
+    margin-bottom: 32px;
 }
 
 .quote-credit {
@@ -137,6 +140,9 @@ button {
     display:flex;
     background-color: #3882f6;
     padding: 48px;
+    margin:48px;
+    border-radius: 16px;
+    justify-content: space-around;
 }
 
 .bottom-section-container {
@@ -149,7 +155,6 @@ button {
 }
 
 .button-container {
-    flex: 1;
     display:flex;
     justify-content: center;
     align-items: center;
