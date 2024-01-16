@@ -42,6 +42,7 @@ ul {
 
 .logo {
     font-size: 24px;
+    font-weight: 700;
     color: #F9FAF8;
 }
 
@@ -49,7 +50,7 @@ ul {
     border: 1px solid #fff;  /* For debugging */
     background-color: #1f2937;
     display:flex;
-    flex-wrap: wrap;
+    padding: 48px 0;
 }
 
 .top-section-container {
@@ -67,6 +68,7 @@ ul {
 .top-section-text {
     font-size: 18px;
     color: #e5e7eb;
+    margin-bottom: 8px;
 }
 
 button {
@@ -78,4 +80,65 @@ button {
 
 .top-section-image {
     flex:1;
+}
+
+.information-section {
+    display:flex;
+    flex-direction: column;
+    padding: 48px 0;
+    text-align:center;
+}
+
+.information-section-title {
+    display:flex;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.images {
+    display:flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.numbers img {
+    max-width: 150px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display:flex;
+    flex-direction: column;
+    padding: 48px 0;
+}
+
+.quote-text {
+    display:flex;
+    font-size: 36px;
+    font-style:italic;
+    color: #1f2937;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-credit {
+    display:flex;
+    font-size: 24px;
+    font-weight:bold;
+    color: black;
+    justify-content: flex-end;
+}
+
+.bottom-section {
+    display:flex;
+    background-color: #3882f6;
+}
+
+.bottom-section-container {
+    display: flex;
+    flex-direction: column;
 }
