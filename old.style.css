@@ -1,0 +1,161 @@
+body {
+    display:flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+  }
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px
+  }
+
+.header,
+.footer {
+    background-color: #1f2937;
+    padding: 16px 48px;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+}
+
+.footer {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.logo,
+.bottom-section-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.top-section {
+    background-color: #1f2937;
+    display:flex;
+    padding: 48px;
+}
+
+.top-section-container {
+    flex:1;
+    display:flex;
+    flex-direction: column;
+}
+
+.top-section-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+.top-section-text,
+.bottom-section-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 8px;
+}
+
+button {
+    border-radius: 8px;
+    color: #e5e7eb;
+    font-weight: 700;
+    background-color: #3882F6;
+    padding: 4px 24px;
+}
+
+.top-section-image {
+    flex:1;
+}
+
+.information-section {
+    display:flex;
+    flex-direction: column;
+    padding: 48px;
+    text-align:center;
+}
+
+.information-section-title {
+    display:flex;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.images {
+    display:flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.numbers img {
+    border-radius: 16px;
+    max-width: 150px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display:flex;
+    flex-direction: column;
+    padding: 48px;
+}
+
+.quote-text {
+    display:flex;
+    font-size: 36px;
+    font-style:italic;
+    color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.quote-credit {
+    display:flex;
+    font-size: 24px;
+    font-weight:bold;
+    color: black;
+    justify-content: flex-end;
+}
+
+.bottom-section {
+    display:flex;
+    background-color: #3882f6;
+    padding: 48px;
+    margin:48px;
+    border-radius: 16px;
+    justify-content: space-around;
+}
+
+.bottom-section-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-container button {
+    border: 1px solid #fff;
+}
+
+.button-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
